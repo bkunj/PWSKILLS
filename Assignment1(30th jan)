@@ -1,0 +1,15 @@
+1.Who developed Python programming Language?
+Ans: Guido van Rossum.
+
+2. Which type of programming does python support?
+Ans:Python is an interpreted programming language, supporting object-oriented, structured, and functional programming.
+
+3.Is Python case sensitive when dealing with identifiers?
+Ans: Yes, Python is a case-sensitive language, i.e., it treats uppercase and lowercase characters differently. 
+This applies to identifiers too. You must avoid using the same name with different cases while naming identifiers.
+
+4.What is the correct extension of the Python file?
+Ans: .py
+
+5.Is Python code compiled or interpreted?
+Ans: 
