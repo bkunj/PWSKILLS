@@ -12,4 +12,80 @@ This applies to identifiers too. You must avoid using the same name with differe
 Ans: .py
 
 5.Is Python code compiled or interpreted?
-Ans: 
+Ans: python codess are both compiled as well as interpreted!! but the compilation part is hidden from the programmer.
+The python first compiles the program internally and then run the code via interpreter.
+The compiled part is get deleted by the python(as soon as you execute your code) just it does not want programmers to get into complexity.
+
+6.Name a few blocks of code used to define in Python language.
+Ans: A Python program is constructed from code blocks. A block is a piece of Python program text that is executed as a unit.
+The following are blocks: a module, a function body, and a class definition.
+Each command typed interactively is a block. A script file (a file given as standard input 
+to the interpreter or specified as a command line argument to the interpreter) is a code block.
+
+7.State a character used to give single-line comments in Python.
+Ans: Hash character(#)
+
+8.Mention functions which can help us to find the version of python that we are currently working.
+Ans:  sys.version
+
+9.Python supports the creation of anonymous functions ot runtime, using a construct called...
+Ans: lambda
+
+10.What does pip stands for python?
+Ans: pip is a package manager for python. Which is also called Preferred Installer Program.
+
+11.Mention a few built-in functions in python?
+Ans: print( ) function
+type( ) function
+input( ) function
+abs( ) function
+pow( ) function
+dir( ) function
+sorted( ) function
+max( ) function
+round( ) function
+divmod( ) function
+id( ) function
+ord( ) function
+len( ) function
+sum( ) function
+help( ) function  .....etc
+
+12.What is the maximum possible length of an identifier in Python?
+Ans: An identifier can have a maximum length of 79 characters in Python.
+
+13.What are the benefits of using Python?
+Ans: 1. Easy to Read, Learn and Write
+2. Improved Productivity
+3. Interpreted Language
+4. Dynamically Typed
+5. Free and Open-Source
+6. Vast Libraries Support
+7. Portability
+...etc
+
+14.How is memory managed in Python?
+Ans: Memory management in Python involves a private heap containing all Python objects and data structures.
+The management of this private heap is ensured internally by the Python memory manager. 
+The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+
+15.How to install Python on Windows and set path variables?
+Ans: Install python from this link https://www.python.org/downloads/
+To set path variable these are following steps:
+[Right Click]Computer > Properties >Advanced System Settings > Environment Variables
+Click [New] under "System Variable"
+Variable Name: PY_HOME, Variable Value:C:\path\to\python\version enter image description here
+Click [OK]
+Locate the "Path" System variable and click [Edit]
+Add the following to the existing variable:
+%PY_HOME%;%PY_HOME%\Lib;%PY_HOME%\DLLs;%PY_HOME%\Lib\lib-tk;
+Click [OK] to close all of the windows.
+Aa a final sanity check open a command prompt and enter python. You should see
+>python [whatever version you are using]
+
+16.Is indentation required in Python?
+Ans: The indentation in Python is very important.
+Python uses indentation to indicate a block of code.
+
+
+
